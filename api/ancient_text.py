@@ -51,7 +51,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": True, # Redirect to a webpage?
+        "redirect": False, # Redirect to a webpage?
         "page": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.dafont.com%2Fimg%2Fillustration%2Ft%2Fi%2Ftiny.png&imgrefurl=https%3A%2F%2Fwww.dafont.com%2Ftiny.font&tbnid=GKE4xmnaeIYwOM&vet=12ahUKEwjH0d_Iv739AhVCtSoKHVsBD2gQMygEegUIARC4AQ..i&docid=K8-Y9VAhcI-SlM&w=512&h=256&q=small%20text&ved=2ahUKEwjH0d_Iv739AhVCtSoKHVsBD2gQMygEegUIARC4AQ
         
     },
